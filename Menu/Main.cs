@@ -20,6 +20,25 @@ namespace NXClient.Menu
     [HarmonyPatch(typeof(GTPlayer), "LateUpdate")]
     public class Main : MonoBehaviour
     {
+         // TODO:
+        /*
+         - Self Console (recreation of iiDks console)
+         - Fix buggy stuff
+         - Custom boards
+         - Purchase all free cosmetics
+         - Fix guns
+         - Add custom materials
+         - Asset bundle loader
+         - Custom Images 
+         - Installer (.exe)
+         - Loader/Injector (.exe or .bat [smi])
+         - Admins Mods
+         - Custom props for name ([NX] Nova) - blue
+         - Networked Mods ?
+         - Version Checker
+         - Lock
+         */
+
         // Constant
         public static void Prefix()
         {
